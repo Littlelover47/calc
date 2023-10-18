@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="calc.css" />
+    <title>kalkulator</title>
+  </head>
+  <body>
+    <main>
+      <div class="calculator">
+        <div class="screen">
+          <div class="screen-last" id="lastOpScr"></div>
+          <div class="screen-current" id="currOpScr">0</div>
+        </div>
+        <div class="buttons-grid">
+          <button class="btn" id="clearBtn">CLEAR</button>
+          <button class="btn" id="deleteBtn">DELETE</button>
+
+          <button class="btn" data-number>7</button>
+          <button class="btn" data-number>8</button>
+          <button class="btn" data-number>9</button>
+          <button class="btn" data-operator>/</button>
+
+          <button class="btn" data-number>4</button>
+          <button class="btn" data-number>5</button>
+          <button class="btn" data-number>6</button>
+          <button class="btn" data-operator>*</button>
+
+          <button class="btn" data-number>1</button>
+          <button class="btn" data-number>2</button>
+          <button class="btn" data-number>3</button>
+          <button class="btn" data-operator>-</button>
+
+          <button class="btn" data-number>.</button>
+          <button class="btn" data-number>0</button>
+          <button class="btn" id="equal">=</button>
+          <button class="btn" data-operator>+</button>
+        </div>
+      </div>
+    </main>
+    <script src="calc.js"></script>
+  </body>
+</html>
